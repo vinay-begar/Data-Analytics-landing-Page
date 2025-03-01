@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="vitthal-korvan">
+    <link rel="icon" type="image/x-icon" href="./assets/images/edit-brightness.svg">
+    <title>Data Analytic Landing Page</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <!-- **Talwind CDn -->
+    <!-- <link href="/src/styles.css" rel="stylesheet"> -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- font famiy -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-[Poppins]">
+    <header>
+        <div class="header maxWidth flex justify-between ">
+            <img src="./assets/images/Logo.png" alt="logo" class="logo pl-10 pt-3 ">
+
+
+            <nav class="lg:pl-130 mt-2 ">
+                <ul class="nav-links hidden lg:block lg:flex gap-11 ">
+                   <div class="arrow ">
+                     <li class="lg:flex">
+                        <a href="#">About</a>
+                        <img class="lg:flex lg:w-[10px] lg:h-[13px] lg:rotate-[90deg] lg:ml-1 lg:mt-[3px]" src="./assets/images/Vector.svg" alt="arrow">
+                    </li>
+                   </div>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                    <button class="btn-start hidden lg:block lg:py-[10px] lg:px-9 lg:text-[#722ED1] lg:text-[17px]  lg:rounded-full lg:border-2 lg:border-[#722ED1] lg:hover:bg-[#722ED1] lg:hover:text-white">Start free trial</button>
+                </ul>
+                <div class="menu pl-28 pt-4 text-[40px] lg:hidden">
+                    <i class="ri-menu-line  text-purple-200 "></i>
+                </div>
+                
+            </nav>
+
+            <div class="ham-menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="real-time lg:bg-linear-to-t lg:to-white-300 lg:from-blue-300 ">
+                <div class="text  lg:flex " >
+                        <div class="textCol flex flex-col lg:items-center ">
+                    <h3 class="textSubHeading  pt-20 pl-8">
+                        <img class="absolute pl-2 pt-1" src="./assets/images/edit-brightness.svg" alt="edit-brightness">
+                        <span class="text-[#722ED1] bg-purple-200 rounded-2xl font-bold px-5 py-1 text-xl pl-6  ">
+                            v3.1 released. <a href="#"> Learn more</a>
+                        </span>
+                    </h3>
+                    <h1 class="font-bold text-5xl pt-4 pl-8 leading-15 ">
+                        Your data with <br> real-time <br> analytics
+                    </h1>
+                    <p class="text-center px-4 pt-6 pl-8">Harness the potential of a Big Data analytic & cloud services
+                        and become a data driven
+                        organization with neddle tail</p>
+                    <div class="btnGroups flex flex-col pl-8 pt-6 gap-6 lg:flex lg:flex-row lg:px-2 lg:py-2 rounded-full">
+                        <button class="btn-free border-2 rounded-4xl py-2 text-white bg-[#722ED1] text-lg lg:px-2 lg:py-2 lg:border-none ">
+                            Start free trial
+                        </button>
+                        <button class="btn-learn border-2 rounded-4xl py-2 text-[#722ED1] lg:px-2 lg:py-2 rounded-full ">
+                            Learn more
+                        </button>
+                    </div>
+                </div>
+
+                <div class="imgCol flex bg-blue-100  items-center lg:bg-transparent" style="--p: 70px; height: 480px; width: 100%; aspect-ratio: 1; clip-path: polygon(0 0,100% 0,100% calc(100% - var(--p)),0 100%);">
+                    <img src="./assets/images/image 1.png" alt="hero image">
+
+                </div>
+                </div>
+            
+            </div>
+        </section>
+
+        <div class="clipArt">
+
+        </div>
+
+        <section id="service">
+            <div class="headings maxWidth flex flex-col items-center lg:mt-10 ">
+                <h3 class="textSubHeading">
+                    <img class="absolute pl-1 pt-1" src="./assets/images/Icon awesome-eye.png" alt="awesome-eye">
+
+                    <span class="text-[#722ED1] pl-9 bg-purple-200  rounded-2xl px-8 py-1">
+                        Why Qubly
+                    </span>
+                </h3>
+                <h2 class="font-bold text-3xl px-20  pt-4 pl-8 text-center">
+                    Get actionable insights from Big Data in 3 steps
+                </h2>
+                <p class="px-2 pt-4 px-1 lg:w-[45%]">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ducimus odio accusantium amet
+                    dignissimos deserunt. Repellat id veniam esse eveniet officia porro ullam excepturi commodi.
+                </p>
+            </div>
+
+            <div class="valuable maxWidth mt-20 lg:flex lg:items-center">
+                <div class="item flex items-center flex-col gap-4 lg:mt-8  ">
+                    <img src="./assets/images/chart-bar-33.svg" alt="chart-bar-33" class="image h-20 ">
+                    <h3 class="font-bold text-xl ">Valueable business insights</h3>
+                    <p class="px-19 lg:opacity-[0.6]">
+                        Collect processed & cleansed data that is ready to be analyzed to gather valuable business
+                        insights.
+                    </p>
+                </div>
+                <div class="item flex items-center flex-col gap-4 mt-7">
+                    <img src="./assets/images/newsletter-dev.svg" alt="chart-bar-33" class="image h-20  ">
+                    <h3 class="font-bold text-xl ">Powerfull Algorithms</h3>
+                    <p class="px-19 lg:opacity-[0.6]">
+                        With the help of powerful algorithms, quality rules & techniques, obtain simplified & enriched
+                        data.
+                    </p>
+                </div>
+                <div class="item flex items-center flex-col gap-4 mt-7">
+                    <img src="./assets/images/timeline.svg" alt="chart-bar-33" class="image h-20 ">
+                    <h3 class="font-bold text-xl ">Data in real-time</h3>
+                    <p class="px-19 lg:opacity-[0.6]">
+                        Collect data in real-time from multiple channels and move it into a data leak, in its original
+                        format.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="moreServiceDetails maxWidth">
+            <div class="product-teams lg:flex lg:justify-center">
+                <div class="imgCol lg:pl-35 ">
+                    <img src="./assets/images/Group 21.svg" alt="Group"    class="h-[90vh]">
+                </div>
+                <div class="textCol flex flex-col ml-3 lg:pt-75 lg:pl-30">
+                    <div class="svg bg-purple-200 rounded-2xl font-bold w-50 px-1 py-1 text-[#722ED1]">
+                        <h3 class="textSubHeading">
+                            <img src="./assets/images/Group 11.svg" alt="Group 11" class="image absolute">
+                            <span class="ml-9">
+                                For Product Teams
+                            </span>
+                        </h3>
+                    </div>
+                    <h2 class="text-3xl pr-30 mt-5 font-bold">Launch with the best stack</h2>
+                    <p class="mt-5 px-1 lg:py-4 opacity-[0.6]">
+                        A centralized platform that integrates zillions of data soruces using Big data ELT ( Extract,
+                        Load & Transform ) that leaves no data behind.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="moreServiceDetails maxWidth">
+            <div class="Engineering-Teams lg:flex lg:justify-center lg:items-center lg:w-[90%] ">
+                <div class="imgCol order-2">
+                    <img src="./assets/images/image 6.png" alt="image 6">
+                </div>
+                <div class="textCol ml-6  ">
+                    <div class="Subheading bg-purple-200 rounded-2xl font-bold w-55 py-1 text-[#722ED1] lg:ml-30">
+                        <h3 class="textSubHeading ">
+                            <img src="./assets/images/Group 28.svg" alt="Group 28" class="absolute">
+                            <span class="pl-8">
+                                For Engineering Teams
+                            </span>
+                    </div>
+
+                    </h3>
+                    <h2 class="font-bold text-3xl lg:pl-29 lg:pt-8">Data-driven pipelines in minutes</h2>
+                    <p class="pt-5 opacity-[0.6] lg:pl-30 lg:px-8 w-[90%] lg:pt-8">
+                        Maintenance-free data piplines with quick set-up and straight-forward deployments that are
+                        powered by a modern & scalable platform.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testomonials bg-[#F0E2FF] " style="clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);">
+            <div class="SullivanAnalytics maxWidth  h-[50vh] flex items-center w-[120]">
+                <div class="item-Rowan flex flex-col items-center">
+                    <h4 class="text-center text-[20px] font-bold w-[70%]">"What I love about SullivanAnalytics is the
+                        easy way we can collaborate even if there is a lot
+                        of people involved in the process"</h4>
+                    <div class="pt-6">
+                        <img src="./assets/images/Profile.png" alt="Profile">
+                    </div>
+
+                    <span class="name font-bold mt-5">Rowan Sullivan</span>
+                    <span class="position mt-4 opacity-[0.6]">
+                        CTO @SullivanAnalytics
+                    </span>
+                </div>
+            </div>
+            <div class="hr flex justify-center py-14 lg:flex ">
+                <div class="h-1 w-[98%] bg-white "></div>
+            </div>
+            <ul class="logos-1 maxWidth flex  gap-11 justify-center flex-wrap h-[30vh] lg:gap-40">
+                <li>
+                    <img src="./assets/images/Logo.png" alt="logo">
+                </li>
+                <li>
+                    <img src="./assets/images/Logo.png" alt="logo">
+                </li>
+                <li>
+                    <img src="./assets/images/Logo.png" alt="logo">
+                </li>
+                <li>
+                    <img src="./assets/images/Logo.png" alt="logo">
+                </li>
+                <li>
+                    <img src="./assets/images/Logo.png" alt="logo">
+                </li>
+            </ul>
+        </section>
+
+        <section class="signUp">
+            <div class="best maxWidth lg:flex ">
+                <div class="col-text flex flex-col items-center">
+                    <h2 class="text-[32px] font-bold p-8 lg:w-[50%] lg:-ml-[-50]">See why the world's best companies use Quably to become truly
+                        data-driven.</h2>
+                    <div class="line-trust">
+                        <div class="line-1"></div> <hr class="relative top-3 -left-24">
+                        <p class="trust opacity-[0.6] lg:inline ">Trusted By </p>   <hr class="relative -top-3 left-24">
+                        
+                    </div>
+                    <ul class="logos-2 flex grid h-25 grid-cols-2 place-content-between mt-5 gap-11  ">
+                        <li>
+                            <img src="./assets/images/Logo.png" alt="logo">
+                        </li>
+                        <li>
+                            <img src="./assets/images/Logo.png" alt="logo">
+                        </li>
+                        <li>
+                            <img src="./assets/images/Logo.png" alt="logo">
+                        </li>
+                        <li>
+                            <img src="./assets/images/Logo.png" alt="logo">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-form mt-10 bg-purple-200  h-[35vh] lg:h-[65vh] lg:mr-20 ">
+                    <form class="signUpForm flex flex-col justify-center ml-8 pt-4  ">
+                       <div class="login bg-white lg:p-6 w-[90%] flex flex-col items-center">
+                         <h2 class="text-center font-bold pt-3 text-3xl">Sign Up</h2>
+                        <button class="btn-your  border-none rounded-sm w-80 ml-6 h-9 mt-4 text-white bg-[#722ED1]  ">
+                            Start your free trial
+                        </button>
+                        <input type="email" name="Email" id="email" placeholder="Your primary email"
+                            class="border-1 border-purple-100 w-80 px-1 py-1 pl-3  mt-2 ">
+                        <input type="password" name="Password" placeholder="Password"
+                            class="border-1 border-purple-100 w-80 mt-4 px-1 py-1 pl-3  ">
+                        <input type="password" name="RePassword" placeholder="Re-type Password"
+                            class="border-1 border-purple-100 w-80 mt-4 py-1 pl-3 px-1">
+                        <h4 class="text-center font-bold pt-4">OR</h4>
+                        <a href="#">
+                            <img src="./assets/images/btn_google_signin_dark_normal_web@2x.svg" alt="google"
+                                class=" pt-4   ">
+                        </a>
+                         <hr class="w-96  mt-3 ">
+                        <h4 class="loginText text-center text-grey  opacity-[0.7] px-2 py-2 pt-1">Already have an account? <a 
+                                href="#" class="text-purple-800">Login</a></h4>
+                       </div>
+                      
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container-f maxWidth mt-10 lg:mt-50 lg:flex   ">
+            <div class="company">
+                <img src="./assets/images/Logo.png" alt="logo" class="logo-c h-10 w-30 ml-8">
+                <p class="opacity-[0.7] px-9 pt-3 lg:opacity-[0.5] lg:w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                    excepturi deleniti sint, voluptatum officia nam saepe eveniet neque dicta non.</p>
+                <ul class="socials flex gap-4 pl-10 pt-4">
+                    <li>
+                        <img src="./assets/images/facebook-icon.svg" alt="facebook-icon">
+                    </li>
+                    <li>
+                        <img src="./assets/images/instagram-2016.svg" alt="instagram-2016">
+                    </li>
+                    <li>
+                        <img src="./assets/images/twitter-3.svg" alt="twitter-3">
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-list lg:flex lg:gap-10 ">
+            <ul class="list pt-20 pl-8 lg:pt-3  ">
+                <h4 class="font-bold text-[20px]">Product</h4>
+                <li class="opacity-[0.6]">
+                    Connections
+                </li>
+                <li class="opacity-[0.6]">
+                    Protocols
+                </li>
+                <li class="opacity-[0.6]">
+                    Personas
+                </li>
+                <li class="opacity-[0.6]">
+                    integrations
+                </li>
+                <li class="opacity-[0.6]">
+                    Catalog
+                </li>
+                <li class="opacity-[0.6]">
+                    Pricing
+                </li>
+                <li class="opacity-[0.6]">
+                    Security
+                </li>
+                <li class="opacity-[0.6]">
+                    GDPR
+                </li>
+            </ul>
+
+            <ul class="list pt-20 pl-8 lg:pt-3">
+                <h4 class="font-bold text-[20px] lg:text-[14] lg:font-bold">For Developers</h4>
+                <li class="opacity-[0.6]">
+                    Docs
+                </li>
+                <li class="opacity-[0.6]">
+                    API
+                </li>
+                <li class="opacity-[0.6]">
+                    Open Source
+                </li>
+                <li class="opacity-[0.6]">
+                    Engineering Team
+                </li>
+            </ul>
+
+            <ul class="list pt-20 pl-8 lg:pt-3">
+                <h4 class="font-bold text-[20px]">Company</h4>
+                <li class="opacity-[0.6]">
+                    Careers
+                </li>
+                <li class="opacity-[0.6]">
+                    Blog
+                </li>
+                <li class="opacity-[0.6]">
+                    Press
+                </li>
+            </ul>
+
+            <ul class="list pt-20 pl-8 lg:pt-3">
+                <h4 class="font-bold text-[20px]">Support</h4>
+                <li class="opacity-[0.6]">
+                    Help Center
+                </li>
+                <li class="opacity-[0.6]">Contact US</li>
+                <li class="opacity-[0.6]">Security</li>
+                <li class="opacity-[0.6]">Bulletins</li>
+                <li class="opacity-[0.6]">Documentation</li>
+                <li class="opacity-[0.6]">Partner</li>
+                <li class="opacity-[0.6]">Portal</li>
+            </ul>
+
+            <ul class="list mt-10 ">
+                <h4 class="font-bold">Newsletter</h4>
+                <div class="newsletterForm flex">
+                    <input type="text" placeholder="Email">
+                    <a href="#">
+                        <img src="./assets/images/Icon ionic-ios-send.png" alt="send" class="hidden">
+                    </a>
+                </div>
+            </ul>
+            </div>
+        </div>
+        </div>
+        <div class="vinay text-center lg:mt-10">
+            <p>Created with by Vinay B</p>
+        </div>
+    </footer>
+</body>
+
+</html>
