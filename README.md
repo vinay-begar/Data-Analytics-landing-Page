@@ -1,4 +1,4 @@
-# Frontend Mentor - Beats-landing-page
+# Frontend Mentor - Data-Analytics-landing-page
 ## Welcome! 👋
 
 ### Links
